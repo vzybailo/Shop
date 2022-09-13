@@ -5,6 +5,11 @@ import './assets/scss/main.scss'
 import router from './router'
 import store from './store'
 
+//Plugins
+import VueCarousel from 'vue-carousel';
+
+Vue.use(VueCarousel);
+
 Vue.config.productionTip = false
 
 new Vue({
